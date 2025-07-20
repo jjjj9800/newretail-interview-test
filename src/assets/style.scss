@@ -1,0 +1,37 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+.w-150px {
+  width: 150px !important;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  padding: 0 0 0.5rem 0;
+}
+.table-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  padding: 1px 0.75rem;
+}
+
+.icon-size {
+  width: 8px;
+  display: inline-flex;
+}
+
+.icon-size-md {
+  width: 12px;
+  display: inline-flex;
+}
+
+.icon-color-primary {
+  fill: var(--bs-primary);
+}
+
+.custom-select-icon {
+  background-image: url("data:image/svg+xml,%3Csvg fill='blue' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 5l6 6 6-6'/%3E%3C/svg%3E");
+}
